@@ -1,0 +1,42 @@
+
+# large / generated artifacts
+
+videos/
+
+trimmed_dataset/
+
+results/
+
+Results*/
+
+Reults*/
+
+outputs/
+
+checkpoints/
+
+taguchi_runs*/
+
+taguchi_runs_* 
+
+logs/
+
+logs_*/
+
+result download/
+__pycache__/
+
+*.pyc
+
+*.pt
+
+*.pth
+
+*.ckpt
+
+
+
+# slurm
+
+slurm-*.out
+
