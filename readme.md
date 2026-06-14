@@ -1,4 +1,4 @@
-# ViViT-Based Risky Tackle Detection in American Football Practice Videos
+# ViTs based Risky Tackle Detection in American Football Practice Videos
  
 Code for the ICPR 2026 paper:
  
