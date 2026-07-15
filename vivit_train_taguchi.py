@@ -84,8 +84,15 @@ MODEL_CHECKPOINT = "google/vivit-b-16x2-kinetics400"
 GRADIENT_ACCUMULATION_STEPS = 8
 
 # Paths
-BASE_RUNS_DIR = "/ocean/projects/asc180003p/szaidi/Tackle_Ablation/taguchi_runs"
-RESULTS_BASE_DIR = "/ocean/projects/asc180003p/szaidi/Tackle_Ablation/taguchi_runs_GRADCAM_RESULTS"
+BASE_RUNS_DIR = os.environ.get(
+    "TACKLE_RUNS_DIR",
+    os.path.abspath("./taguchi_runs")
+)
+
+RESULTS_BASE_DIR = os.environ.get(
+    "TACKLE_RESULTS_DIR",
+    os.path.abspath("./taguchi_runs_GRADCAM_RESULTS")
+)
 DEFAULT_FOLD = 0
 
 # Threshold tuning strategy: 'macro_f1', 'neutral_recall', or 'cost_sensitive'
