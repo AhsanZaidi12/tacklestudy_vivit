@@ -1,3 +1,23 @@
+"""
+LEGACY PRELIMINARY-DATA UTILITY
+
+This script was developed for the earlier approximately 190-clip dataset.
+It creates one fixed train/validation split, generates 86 additional training
+clips, and prepares 19 configurations.
+
+It was not used to construct the final 733-clip, stratified five-fold
+experiment reported in the ICPR 2026 paper. The final five-fold preparation
+pipeline and exact fold manifests are maintained separately and are being
+prepared for public release.
+
+Do not use this script to reproduce the paper's final headline results.
+It is retained only for provenance and historical reference.
+"""
+
+
+
+
+
 #!/usr/bin/env python3
 """
 build_taguchi_datasets.py  ·  v3
